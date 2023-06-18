@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img id="image" src="music.jpg">
+    <video id="myVideo" loop></video>
+    <div id="controls">
+        <div>
+            <p>Mode : <br>
+            <button id="video">Video</button>
+            <button id="audio">Audio</button><br>
+        </div>
+        <div>
+            <p>Basic : <br>
+            <button id="playBtn">Play</button>
+            <button id="fullBtn">FullScreen</button><br>
+        </div>
+        <div>
+            <p>Volume : <span id="volumeDisplay">?</span><br>
+            <button id="lowerVolumeBtn">-</button>
+            <button id="higherVolumeBtn">+ </button></p>
+        </div>
+        <div id = "timeDiv">
+            <p>Time : <span id="timeDisplay">0 / ?</span><br>
+            <input type="range" id="progressBar" min="0" value="0"></p>
+        </div>
+        <div>
+            <p>Channel : <span id="channelDisplay">?</span><br>
+            <button id="lowerVideoIdx">prev</button>
+            <button id="higherVideoIdx">next</button></p>
+        </div>
+        <div id="speedDiv">
+            <p>Speed : <span id="speedDisplay">?</span><br>
+            <button id="halfSpeed">0.5</button>
+            <button id="normalSpeed">1</button>
+            <button id="doubleSpeed">2</button></p>
+        </div>
+    </div>
+    <script src=" //unpkg.com/jquery"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

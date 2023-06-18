@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <audio id="music" src="./musics/music0.mp3" autoplay loop>
+    </audio>
+    <div id="root">
+        <div id="nav">
+            <div id="button1"><p>返回</p></div>
+            <div id="barContainer"></div>
+            <div id="button2"><p>跳過</p></div>
+        </div>
+        <div id="picContainer">
+            <img id="backImg">
+            <img id="lightImg">
+            <img id="foreImg">
+            <img id="loadImg">
+            <img id="blackImg">
+        </div>
+        <div id="ansContainer">
+            <div id="ansRegion1"></div>
+            <div id="ansRegion2"></div>
+            <div id="ansRegion3"></div>
+            <div id="ansRegion4"></div>
+        </div>
+        <div id="textContainer">
+            <p id="introText"></p>
+        </div>
+        <div id="resContainer">
+            <img id="resBack">
+            <div id="resFrame">
+                <div id="partContainer">
+                    <div><img id="resPart1"></div>
+                    <div><img src="./results/line.png"></div>
+                    <div><img id="resPart2"></div>
+                    <div><img src="./results/line.png"></div>
+                    <div><img id="resPart3"></div>
+                    <div><img src="./results/line.png"></div>
+                    <div id="btnContainer">
+                        <div id="download"><img src="./results/download.png"></div>
+                        <div id="restart"><img src="./results/again.png"></div>
+                    </div>
+                    <div id="extra1"><img src="./results/line.png" ></div>
+                    <div id="extra2"><img src="./results/logo.png"></div>
+                </div>
+            </div>
+        </div>
+        <img id="whiteImg">
+        <img id="startBtn">
+        <img id="soundHint">
+    </div>
+    <div id="warning">
+        <img id="warning1" src="images/00_forbid1.png">
+        <img id="warning2" src="images/00_forbid2.png">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

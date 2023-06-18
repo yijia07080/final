@@ -1,0 +1,54 @@
+div {
+    font-family: "Helvetica", "Arial","LiHei Pro", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    line-height: 20vh;
+    font-weight: bold;
+    position: absolute; 
+    color: #FFCDA4;
+    background-color: #D7716A;
+    width: 20vh;
+    height: 20vh;
+    border: 1vh solid #FFCDA4;
+}
+
+.main {
+    position: absolute; 
+    background-color: white;
+    width: 85vh;
+    height: 85vh;
+    border: 0px solid #FFCDA4;
+    margin: 0px auto;
+}
+
+.title {
+    font-family: monospace, monospace;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    color: #824C2D;
+    font-weight:bold;
+    font-size: 45px;
+}
+
+.subtitle {
+    font-family: monospace, monospace;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    color: #824C2D;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+.title strong {
+    color: #F75000;
+    font-weight:bold;
+    font-size: 65px;
+}
+
+.subtitle strong {
+    color: #824C2D;
+    font-weight:bold;
+    font-size: 40px;
+}
