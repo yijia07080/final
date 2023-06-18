@@ -14,7 +14,7 @@ $(function () {
         $("#playBtn").text("Play");
         $("#myVideo").hide();
         $("#fullBtn").hide();
-        $("music").show();
+        $("#music").show();
         $("#channelDisplay").text(currentAudioIndex + 1);
         changeVideo();
     });
@@ -24,12 +24,12 @@ $(function () {
         $("#playBtn").text("Play");
         $("#myVideo").show();
         $("#fullBtn").show();
-        $("music").hide();
+        $("#music").hide();
         $("#channelDisplay").text(currentVideoIndex + 1);
         changeVideo();
     });
 
-    $("music").hide();
+    $("#music").hide();
     $("#myVideo").attr("src", "sample-mp4-file.mp4");
     $("#playBtn").on("click", function () {
         $("#volumeDisplay").text($("#myVideo")[0].volume.toFixed(2));
